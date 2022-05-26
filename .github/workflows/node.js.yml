@@ -3,7 +3,7 @@ name: Node CI
 on: [push]
 
 jobs:
-      - uses: actions/upload-artifact@main
+      - uses: actions/upload-artifact@v3
     needs: build
           name: webpack artifacts
           path: public/
